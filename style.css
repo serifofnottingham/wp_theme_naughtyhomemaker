@@ -7,3 +7,7 @@
    DESCRIPTION: Child theme for The Naughty Homemaker
    TEMPLATE:headway
 */
+
+.block-type-content div.entry-content h1 {
+	color: fuchsia;
+}
