@@ -120,20 +120,48 @@ li.comment div.reply {
     background-color: #555555;
 }
 
-.recipe {
-	background-color: #f5f2eb;
-	padding: 15px;
-	margin: 10px 0;
+.jetpack-recipe {
+  background-color: #f5f2eb;
+  border: none;  
+  border-radius: 0;
+  margin: 10px 0;
+  padding: 15px;
 }
 
-div.entry-content .recipe ul {
+div.entry-content h3.jetpack-recipe-title {
+  font-family: Montserrat;
+  font-size: 23px;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-variant: normal;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #B89062;
+  padding: 0;
+}
+
+div.entry-content ul.jetpack-recipe-meta li:before {
+	content: none;	
+}
+
+div.entry-content ul.jetpack-recipe-meta {
+	margin-bottom: 15px;	
+}
+
+div.entry-content ul.jetpack-recipe-meta  li {
+	text-indent: 0;	
+}
+
+div.entry-content .jetpack-recipe-content ul {
 	margin-bottom: 15px;
 }
 
-div.entry-content .recipe h6 {
+div.entry-content .jetpack-recipe-content h6 {
 	margin-bottom: 5px;
 }
 
-div.entry-content .recipe ol {
+div.entry-content .jetpack-recipe-content ol {
 	margin-top: 0;
 }
