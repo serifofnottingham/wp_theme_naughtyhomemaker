@@ -119,3 +119,8 @@ li.comment div.reply {
 .block-type-search .search-form .submit:hover {
     background-color: #555555;
 }
+
+.recipe {
+	background-color: #f5f2eb;
+	padding: 15px;
+}
