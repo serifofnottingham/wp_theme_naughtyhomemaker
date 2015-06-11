@@ -8,6 +8,114 @@
    TEMPLATE:headway
 */
 
-.block-type-content div.entry-content h1 {
-	color: fuchsia;
+.block-type-widget-area li.widget { margin: 0; }
+
+#block-b2d5567a2e102158 { min-height: 274px; height: auto; }
+
+b { font-weight: bold; }
+
+.block-type-header a.banner-image img { display: block; margin-left: auto; margin-right: auto; }
+
+.cnss-social-icon .Facebook a img { margin-left: 0px !important; }
+
+.cnss-social-icon a img { margin-top: 4px !important; margin-bottom: 4px !important; }
+
+.entry-content blockquote p { margin-bottom: 0; }
+
+blockquote { border-color: #8a1717; border-left-width: 3px; }
+
+.block-type-navigation ul.menu li.menu-item-home > a { padding-left: 0px; }
+
+.block-type-navigation ul.menu li > a:hover {
+color: #ffffff;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(184, 144, 98, 0), rgba(184, 144, 98, 0.75), rgba(184, 144, 98, 0));
+}
+
+div.entry-content ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+div.entry-content ul li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+div.entry-content ul li:before {
+    content: "• ";
+    color: #B89062;
+}
+
+div.entry-content ul {
+    padding: 0 0 0 1.7em;
+}
+
+h6, dt, legend, th {
+    color: #8A1617;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+abbr {
+    color: #B89062;
+}
+
+pre {
+    background-color: #f5f2eb;
+}
+
+textarea {
+    width: 95%;
+    height: 15em;
+    border: 1px #555555 solid;
+    background-image: url('http://naughtyhomemaker.dev.tunatraffic.dev/wp-content/uploads/2015/05/creamnoisebg.jpg');
+}
+
+input:not([type=submit]):not([type=file]):not([type=reset]) {
+    border: 1px #555555 solid;
+    background-image: url('http://naughtyhomemaker.dev.tunatraffic.dev/wp-content/uploads/2015/05/creamnoisebg.jpg');
+}
+
+input[type="submit"], input[type="button"], input[type="reset"], button {
+  background: #B89062;
+  padding: 0 15px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 27px;
+  border: none;
+  font-family: 'Averia Serif Libre', serif;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover {
+  background: #555555;
+  color: #FFFFFF;
+}
+
+li.comment ul.children {
+    padding-top: 30px;
+}
+
+li.comment a.comment-reply-link {
+    margin: 0;
+}
+
+li.comment div.reply {
+    margin-top: 10px;
+}
+
+.block-type-search .search-form .submit:hover {
+    background-color: #555555;
 }
