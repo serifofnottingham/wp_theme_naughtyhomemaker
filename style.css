@@ -125,3 +125,15 @@ li.comment div.reply {
 	padding: 15px;
 	margin: 10px 0;
 }
+
+div.entry-content .recipe ul {
+	margin-bottom: 15px;
+}
+
+div.entry-content .recipe h6 {
+	margin-bottom: 5px;
+}
+
+div.entry-content .recipe ol {
+	margin-top: 0;
+}
