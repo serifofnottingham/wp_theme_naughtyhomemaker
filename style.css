@@ -8,7 +8,7 @@
    TEMPLATE:headway
 */
 
-.block-type-widget-area li.widget { margin: 0; }
+.block-type-widget-area li.widget { margin: 0 0 25px; }
 
 #block-b2d5567a2e102158 { min-height: 274px; height: auto; }
 
@@ -19,6 +19,10 @@ b { font-weight: bold; }
 .cnss-social-icon .Facebook a img { margin-left: 0px !important; }
 
 .cnss-social-icon a img { margin-top: 4px !important; margin-bottom: 4px !important; }
+
+.block-type-widget-area li#cnss_widget-2 { margin: 0; }
+
+.block-type-navigation ul.menu li:first-child > a { padding-left: 0; }
 
 .entry-content blockquote p { margin-bottom: 0; }
 
@@ -104,6 +108,20 @@ input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hove
   color: #FFFFFF;
 }
 
+.wp-caption {
+	background: #f5f2eb;
+	border: none;
+}
+
+.wp-caption .wp-caption-text {
+  text-align: left;
+  color: #555;
+  margin: 5px 0 0 !important;
+  font-style: italic;
+  font-size: 0.8em;
+  line-height: 120%;
+}
+
 li.comment ul.children {
     padding-top: 30px;
 }
@@ -164,4 +182,141 @@ div.entry-content .jetpack-recipe-content h6 {
 
 div.entry-content .jetpack-recipe-content ol {
 	margin-top: 0;
+}
+
+.entry-content .gform_body ul li {
+	text-indent: 0;
+}
+
+.gform_wrapper {
+	margin: 1em 0 0;
+}
+
+.gform_wrapper .gfield_required, .gform_wrapper .ginput_complex label {
+    display: none;
+}
+
+.gform_wrapper .top_label .gfield_label {
+	margin: 2em 0 .2em;
+}
+
+li#field_1_1 label {
+	margin-top: 0;
+}
+
+.gform_wrapper .gform_footer {
+	margin: 0;
+}
+
+.block-type-widget-area li.widget #gform_wrapper_3 ul, .block-type-widget-area li.widget #gform_wrapper_2 ul {
+	padding: 0;
+}
+
+.gform_wrapper#gform_wrapper_3 .ginput_complex input[type=text], .gform_wrapper#gform_wrapper_2 .ginput_complex input[type=text], .gform_wrapper#gform_wrapper_2 .top_label input.large, .gform_wrapper#gform_wrapper_3 .top_label input.large, .gform_wrapper#gform_wrapper_2 textarea.large {
+	width: 100%;
+	padding: 3px;
+}
+
+.gform_wrapper#gform_wrapper_2 .top_label .gfield_label, .gform_wrapper#gform_wrapper_3 .top_label .gfield_label, .gform_wrapper#gform_wrapper_2 .ginput_complex label, .gform_wrapper#gform_wrapper_3 .ginput_complex label {
+	display: none;
+}
+
+body .gform_wrapper#gform_wrapper_2 label.gfield_label+div.ginput_container, body .gform_wrapper#gform_wrapper_3 label.gfield_label+div.ginput_container {
+	margin: .375em 0 1em;
+}
+
+.gform_wrapper#gform_wrapper_2 .gform_footer, .gform_wrapper#gform_wrapper_3 .gform_footer {
+	padding: 0 0 .625em;
+}
+
+.block-type-content a.post-thumbnail img {
+	border: none;
+}
+
+/* WP 3.6 Native Audio Player styling*/
+
+/* change the color of the background */
+.mejs-controls,
+.mejs-mediaelement,
+.mejs-container {
+	background: url('') !important;
+	background-color: #B89062 !important;
+}
+
+/* change the color of the lettering */
+.mejs-currenttime,
+.mejs-duration {
+	color: #555555 !important;
+}
+
+/* eliminate the yellow border around the play button during playback */
+.mejs-controls .mejs-button button:focus {
+outline: none !important;
+}
+
+/* use a sprite file with darker transport icons */
+.mejs-controls .mejs-button button {
+	background-image: url('http://naughtyhomemaker.dev.tunatraffic.dev/wp-content/uploads/2015/06/dark-controls.png') !important;
+}
+
+/* change the color of the progress bar */
+.mejs-controls .mejs-time-rail .mejs-time-total {
+	background: #7b7b7b !important;
+}
+
+/* change the color of the current time bar */
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #555555 !important;
+}
+
+/* change the color of the file loading bar */
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: #7b7b7b !important;
+}
+
+/* change the color of the total volume bar */
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	background: #7b7b7b !important;
+}
+
+/* change the color of the current volume bar */
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: #555555 !important;
+}
+
+@media screen and (max-width: 1044px) {
+    div.block-content {
+	    margin: 0 1em;
+    }
+    
+    /*div.grid-fluid-24-22-22 .column {
+	    margin-right: 0;
+    }*/
+    
+    .block-type-content .type-post {
+        border: none;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cnss-social-icon {
+        text-align: center !important;
+    }
+    
+    div.grid-container {
+	    margin: 0 20px;
+    }
+    
+    .block-type-navigation ul.menu li:first-child > a {
+		padding-left: 15px;
+	}
+	
+	.block-type-widget-area li#cnss_widget-3 {
+		margin: 0 0 10px;
+	}
+	
+	.block-type-header a.banner-image img {
+		margin-top: 1.5em;
+	}
 }
