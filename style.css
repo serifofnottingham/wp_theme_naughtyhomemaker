@@ -291,6 +291,14 @@ outline: none !important;
 .block-type-widget-area li.widget_categories ul {
 	padding: 0;
 }
+
+div.entry-content p:last-of-type {
+	margin: 0 0 2em;
+}
+
+.block-type-widget-area li.widget ul.cnss-social-icon {
+	margin: 5px 0 0;
+}
     
 @media screen and (max-width: 1044px) {
     
